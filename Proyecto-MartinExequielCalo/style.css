@@ -416,6 +416,36 @@ fieldset {
 	top:420px;
 }
 
+/* FOOTER */
+footer{
+  position: absolute;
+  width: 1440px;
+  height: 100px;
+  left: 0px;
+  top: 2700px;
+
+}
+.redes img{
+  padding-top: 20px;
+  padding-left: 40px;
+  width: 50px;
+float: right;
+}
+.ftleft{
+  position: absolute;
+  top: 30px;
+  left: 15px;
+}
+.ftmid{
+  position: absolute;
+  width: 248px;
+  top: 50px;
+  height: 33px;
+  left: 596px;
+  font-family: 'Ruda';
+  font-size: 16px;
+  text-align: center;
+}
 /* NOSOTROS */
 .nosotrospage{
   position: absolute;
@@ -429,3 +459,4 @@ fieldset {
   top: 110px;
   left: 30px;
 }
+
