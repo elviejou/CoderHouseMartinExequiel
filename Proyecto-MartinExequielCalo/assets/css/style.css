@@ -467,6 +467,29 @@ float: right;
 }
 
 /* tienda */
+
+
+/* SIDE BAR */
+.categoriasYfiltros {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  width: 300px;
+  font-size: 18px;
+
+}
+.categoriasYfiltros ul li {
+list-style: none;
+text-decoration: none;
+}
+
+.menuShopCategorias a{
+  text-decoration: none;
+}
+.menuShopSubCategorias  a{
+  text-decoration: none;
+
+}
 .shop{
   width: 1440px;
   display: flex;
@@ -474,6 +497,8 @@ float: right;
  
 }
 
+
+/* CONTENEDOR PRODUCTOS*/
 .contenedorProductos { 
 	width:259px;
 	height:472px;
@@ -482,17 +507,20 @@ float: right;
   align-content: center;
   text-align: center;
 }
+/* IMAGEN CONTENEDOR PRODUCTOS*/
 .contenedorProductos img { 
 	width: 207px;
 	height:241px;
 
 }
+/* NOMBRE PRODUCTOS*/
 .nombreProductos { 
 	color:rgba(25.000000409781933, 25.000000409781933, 29.000000171363354, 1);
 	width:227px;
 	text-align:center;
 	font-size:20px;
 }
+/* PRECIO PRODUCTOS*/
 .precioProductos { 
 	color: #FF0000;
   width:227px;
@@ -500,7 +528,7 @@ float: right;
   font-size: 20px;
   
 }
-
+/* CODIGO PRODUCTOS*/
 .codigoProductos { 
 	color:rgba(120.00000044703484, 120.00000044703484, 133.00000727176666, 1);
 	width:227px;
@@ -508,6 +536,8 @@ float: right;
 	text-align:center;
 	font-size:14px;
 
+
+/*AGREGAR AL CARRITO*/
 }
 .agregarAlCarrito{
 	width:227px;
@@ -525,10 +555,8 @@ float: right;
 
 	width:30px;
 	height:17px;
-
-
-
 }
+
 
 
 
