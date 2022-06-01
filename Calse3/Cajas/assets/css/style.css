@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: white;
+}
+.titulo{
+    background-color: brown;
+    width: 70%;
+
+}
+h5{
+    margin: 10px;
+}
+.caja{
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    border-width: 3px;
+    border-color: red;
+    border-style: solid;
+}

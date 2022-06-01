@@ -1,54 +1,60 @@
-
+*{
+padding: 0;
+margin: 0;
+font-family: 'Ruda';
+}
 
 body{
-  width: 1440px;
+width: 100vw;
+}
+
+/* MENU */
+nav {
+width: 100vw;
+height: 108px;
+display: flex;
 
 }
+nav ul{
+  width: auto;
+  font-size: 24px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 330px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  margin: 0px 5px
+}
+/* LOGO */
+nav ul li img{
+  width: 293px;
+}
+
+
+
 /* HEADER */
 header{
-  width: 1440px;
+  width: 100vw;
   height: 104px;
-  font-family: 'Ruda';
-  position: absolute;
+
+ 
 }
 
 .slogan {
   position: absolute; 
+  width: 300px;
   left: 14px;
   top: 38px;
   font-size: 26px;
   color: red;
 }
-.menu {
-  position: absolute;
-  font-family: 'Ruda';
-  width: 755px;
-  left: 328px;
-  top: 42px;
-  font-size: 16px;
-}
-.nosotros {
-  position: absolute;
-  left: 21px;
-  
-}
-.ubicacion {
-  position: absolute;
-  left: 142px;
-  color: black;
-  
-}
-.precios {
-  position: absolute;
-  left: 550px;
-  color: black;
 
-}
-.contactoo {
-  position: absolute;
-  left: 655px;
-  color: black;
-}
+
+
 .logo{
   position: absolute;
   width: 293px;
@@ -73,7 +79,7 @@ header{
   }
 /* MAIN */
 main{
-  width: 1440px;
+  width: 100vw;
 height: 2420px;
 }
 
@@ -459,4 +465,70 @@ float: right;
   top: 110px;
   left: 30px;
 }
+
+/* tienda */
+.shop{
+  width: 1440px;
+  display: flex;
+  padding-left: 400px;
+ 
+}
+
+.contenedorProductos { 
+	width:259px;
+	height:472px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+.contenedorProductos img { 
+	width: 207px;
+	height:241px;
+
+}
+.nombreProductos { 
+	color:rgba(25.000000409781933, 25.000000409781933, 29.000000171363354, 1);
+	width:227px;
+	text-align:center;
+	font-size:20px;
+}
+.precioProductos { 
+	color: #FF0000;
+  width:227px;
+	text-align:center;
+  font-size: 20px;
+  
+}
+
+.codigoProductos { 
+	color:rgba(120.00000044703484, 120.00000044703484, 133.00000727176666, 1);
+	width:227px;
+	height:21px;
+	text-align:center;
+	font-size:14px;
+
+}
+.agregarAlCarrito{
+	width:227px;
+	height:21px;
+	text-align:center;
+
+}
+.botonAgregar{
+ 	background-color:red;
+  color: #E9DCFF;
+	width: 78px;;
+	height:24px;
+}
+.agregarCantidad { 
+
+	width:30px;
+	height:17px;
+
+
+
+}
+
+
 

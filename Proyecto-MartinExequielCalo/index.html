@@ -4,33 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Ruda&display=swap" rel="stylesheet" />
     <title>Franpapel SRL - Mayorista en Librería</title>
 </head>
 <body>
+    <!-- MENU -->
+    <nav class="menu">
+        <ul class="menuItems">
+            <li><a href="./pages/nosotros.html">NOSOTROS</a></li> 
+            <li><a href="index.html#ubicacionfp">UBICACIÓN</a></li>
+            <!-- LOGO --> 
+            <li><a href="index.html"><img src="./assets/img/logo.png"></a></li> 
+            <li><a href="./pages/precios.html">PRECIOS</a></li>
+            <li><a href="index.html#formulariocontacto">CONTACTO</span></li>
+        </ul> 
+    </nav>
     <header>
+        <!-- SLOGAN --> 
         <section class="slogan">
             <span>MAYORISTA EN LIBRERIA</span>
         </section>
-        <section class="menu">
-            <a href="nosotros.html" class="nosotros">NOSOTROS</a> 
-            <a href="index.html#ubicacionfp" class="ubicacion">UBICACIÓN</a>
-            <a href="precios.html" class="precios">PRECIOS</a>
-            <a href="index.html#formulariocontacto" class="contactoo">CONTACTO</span>
-        </section> 
-        <section logo>
-            <a href="index.html"><img src="logo.png" class="logo"></a> 
-        </section>            
+        <!-- TIENDA LINK -->    
         <Section class="tienda">
-            <a href="tienda.html" class="store">TIENDA</a>
+            <a href="./pages/tienda.html" class="store">TIENDA</a>
         </section>
     </header>
     <main>
+        <!-- SECCION BANNER -->   
         <section banner>
-            <img src="banner.jpg" class="banner1" alt="">
+            <img src="./assets/img/banner.jpg" class="banner1" alt="">
         </section>
-        <section class="servicios">
+        <!-- SECCION SERVICIOS -->
+        <div class="servicios">
             <section envios>
                 <span  class="senvios">Envíos a todo el País</span>
                 <span  class="senvios2">Sin Cargo en CABA y GBA</span>
@@ -48,43 +54,48 @@
                 <span  class="sbrand">Marcas</span>
                 <span  class="sbrand2">Todas las Marcas</span>
             </section>
-        </section>
+        </div>
+        <!-- SERVICIOS ICONOS -->
         <section class="iconos">
-            <img src="delivery.svg" class="delivery">
-            <img src="descuento.svg" class="descuento">
-            <img src="atenci.svg" class="contacto">
-            <img src="brand.jpg" class="marcas">
+            <img src="./assets/img/delivery.svg" class="delivery">
+            <img src="./assets/img/descuento.svg" class="descuento">
+            <img src="./assets/img/atenci.svg" class="contacto">
+            <img src="./assets/img/brand.jpg" class="marcas">
         </section>  
+        <!-- SECCION MARCAS -->
         <section marcas class="marcascarrousel"> 
         </section>
         <section class="marcastexto">
             <span>MARCAS</span> 
         </section>
+        <!-- SECCION ULTIMOS INGRESOS -->
         <section ultimos ingresos class="ultimosingresos"> 
             <section class="uin">
-                <img src="permanen.png"/>
-                <img src="permanen.png"/>
-                <img src="permanen.png"/>
-                <img src="permanen.png"/>
-                <img src="permanen.png"/>
-                <img src="permanen.png"/>
+                <img src="./assets/img/permanen.png"/>
+                <img src="./assets/img/permanen.png"/>
+                <img src="./assets/img/permanen.png"/>
+                <img src="./assets/img/permanen.png"/>
+                <img src="./assets/img/permanen.png"/>
+                <img src="./assets/img/permanen.png"/>
             </section>
         </section>
         <section class="ultimostexto">
             <span id="ultimostextoo" >ULTIMOS INGRESOS</span>
         </section>
-        <section marcas class="recomendados"> 
+        <!-- SECCION RECOMENDADOS -->
+        <section class="recomendados"> 
         </section>
         <section class="recomendadostexto">
             <span>RECOMENDADOS</span>
         </section>
+        <!-- SECCION UBICACION -->
         <section class="ubicacion1"> 
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7816.266761048635!2d-58.517662879873114!3d-34.54506365023456!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1fd57e9a21f894c9!2sFRANPAPEL+-+Librer%C3%ADa+Mayorista!5e0!3m2!1sen!2sar!4v1539886785942" class="map" ></iframe>
         </section>
         <section class="ubicaciontexto">
-            <span id="ubicacionfp">UBICACIÓN</span>
-            
+            <span id="ubicacionfp">UBICACIÓN</span> 
         </section>
+        <!-- SECCION FORMULARIO CONTACTO -->
         <section form class="form"> 
             <form action="" class="formcont">
                 <fieldset>
@@ -106,18 +117,22 @@
                 <span id="formulariocontacto">CONTACTO</span>           
             </section>
         </section>        
-    </main>        
+    </main>    
+    <!-- SECCION FOOTER -->    
     <footer>
+        <!-- SECCION FOOTER IZQUIERDA -->  
         <section class="ftleft">
             <span>Mobile Version</span>
         </section>
+        <!-- SECCION FOOTER MEDIO -->  
         <section class="ftmid">
             <span>© Copyright 2022 FRANPAPEL SRL</span>
             <span>Todos los derechos reservados</span>
         </section>
+        <!-- SECCION FOOTER DERECHA -->  
         <section class="redes">
-            <img src="fb.svg"/>
-            <img src="ig.svg"/>
+            <img src="./assets/img/fb.svg"/>
+            <img src="./assets/img/ig.svg"/>
         </section>
     </footer>   
 </body>
